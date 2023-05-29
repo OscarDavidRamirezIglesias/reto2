@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.container{
+    width: 960px;
+    height: 650px;
+    margin: auto;
+    padding: 5px;
+    background: #939497;
+    border-radius: 24px;
+}
+.logo{
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+}
+.left-button{
+    float:left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+    color: #0A3871;
+
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #939497;
+}
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    color: #0A3871;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#aviso{
+    font-size: 18px;
+    margin-left: 15%;
+    margin-bottom: 5px;
+}
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    border-style:groove;
+}
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    border-style:groove;
+}
+#copiar{
+    margin-left: 15%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 70%;
+    height: 10%;
+    background:#D8DFE8;
+    border-radius: 24px;
+    border-color: #0A3871;
+    border-style:groove;
+    display: none;
+}
